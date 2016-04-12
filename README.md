@@ -19,8 +19,7 @@ Parent.prototype = {
 
 //子类  
 function Child(name){  
-
-    //继承继承，注意注意
+    //继承继承，注意注意 这个要放在第一行哟
     getParent(this,Parent,arguments);  
     this.name = name;  
 }  
